@@ -4,7 +4,7 @@
 
 provider "aws" {
   region  = "eu-north-1"
-  profile = "cemewe"
+#   profile = "cemewe"
 }
 
 #########################################################
