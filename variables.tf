@@ -5,5 +5,5 @@
 variable "student_name" {
   description = "Unique student identifier"
   type        = string
-  default     = "manjitha"  # <-- Each student updates this value
+  default     = "manjithatest"  # <-- Each student updates this value
 }
