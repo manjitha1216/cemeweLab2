@@ -11,5 +11,5 @@ variable "shared_sg_id" {
 variable "student_name" {
   description = "Unique student identifier"
   type        = string
-  default     = "manjithatest4"  # <-- Each student updates this value
+  default     = "manjithatest5"  # <-- Each student updates this value
 }

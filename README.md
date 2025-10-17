@@ -1,6 +1,6 @@
 # 🧩 cemewe DevOps Course for beginners 🚀
 
-## 🚀 Terraform Lab 2 — Launch Apache EC2 Instance with Image from S3
+## 🚀 CI/CD Terraform Lab 2 — Launch Apache EC2 Instance with Image from S3
 
 This lab demonstrates how to use Terraform to automatically provision an Apache Web Server on AWS EC2 and display an image hosted in an Amazon S3 bucket.
 
