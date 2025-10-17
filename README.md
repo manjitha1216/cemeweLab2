@@ -32,7 +32,7 @@ It provides syntax highlighting, linting, and Terraform integration for a smooth
 
 ---
 
-## 🪜 Step 1: Create a New Project Folder Locally
+## 🪜 2. Create a New Project Folder Locally
 
 Open a terminal and create a new folder for your lab:
 
@@ -54,7 +54,7 @@ Inside VS Code, create the following files:
 
 Copy the Terraform code from your lab instructions in the git repo into these files.
 
-## 3. ⚙️ Configure Git (if not already configured)
+## 4. ⚙️ Configure Git (if not already configured)
 
 Initialize a new Git repository:
 This tells Git to start tracking your files.
@@ -77,7 +77,7 @@ If you want to use different identities for specific projects (for example, one 
 git config user.name "Username"
 git config user.email "email@example.com"
 ```
-## 3. 🧑‍💻 Update Your Student Name
+## 5. 🧑‍💻 Update Your Student Name
 
 Before running Terraform commands, open the `variables.tf` file and update the following variable:
 
@@ -89,7 +89,7 @@ variable "student_name" {
 }
 ```
 
-## 3. 🔑 Configure AWS Credentials in GitHub
+## 6. 🔑 Configure AWS Credentials in GitHub
 
 GitHub Actions needs AWS credentials to deploy Terraform resources.
 
@@ -97,10 +97,10 @@ Go to your GitHub repository → Settings → Secrets and variables → Actions 
 
 Add these secrets:
 
-AWS_ACCESS_KEY_ID: Your AWS IAM user access key ID
-AWS_SECRET_ACCESS_KEY: Your AWS IAM user secret access key
+- AWS_ACCESS_KEY_ID: Your AWS IAM user access key ID
+- AWS_SECRET_ACCESS_KEY: Your AWS IAM user secret access key
 
-## 4. 😎 Push your code to Git repository
+## 7. 😎 Push your code to Git repository
 
 Go to your GitHub repository → Actions tab
 You should see the workflow running. Once it completes successfully, Terraform resources are deployed automatically!
